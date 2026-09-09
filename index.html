@@ -21,7 +21,7 @@
     <main>
         <section class="about-me">
             <h2>I am a software artesan from the past.</h2>
-            <p>One day I woke up in 2026, and everyone is chitchatting about these chatbots that can create blogs LOL (I don't care cause my sites look way better).</p>
+            <p>One day I woke up in 2026, and everyone is chitchatting about these chatbots <br> that can create blogs LOL (I don't care cause my sites look way better).</p>
             <p>Now being serious, AI can give you some soulless functional slop, but can it do this?:</p>
             <img src="sources/gifs/retro-so-retro.gif" alt="mario running">
             <p>If you value the human aspect of technology, look no further than... well, me!</p>
@@ -31,21 +31,38 @@
 
             <div class="handcrafted">
                 <h3>Need an ecommerce?</h3>
-                <b>Handcrafted-Haven</b>
+                <a href="">Handcrafted-Haven</a>
                 <img src="" alt="">
             </div>
             <div class="sete-terapias">
                 <h3>Need just a Landing Page?</h3>
-                <b>Sete Terapias</b>
+                <a href="">Sete Terapias</a>
                 <img src="" alt="">
             </div>
 
+            <p>You can access my GitHub to see more projects &darr;</p>
+            <a href="https://github.com/fernandoscjunior"><img src="sources/gifs/click_here.gif" alt="click here button"></a> <br>
+            
             <h2>More Websites Will appear as I develop them!</h2>
             <iframe src="https://giphy.com/embed/cfGmVRsJI6wq6noGxP" width="128" height="128" frameBorder="0" class="giphy-embed"></iframe>
 
         </section>
         
     </main>
+
+    <aside>
+        <section class="updates">
+            <h2>Updates</h2>
+            <i>09/09/2026</i>
+            <p>Website Created!</p>
+        </section>
+
+        <section class="fun-stats">
+            <h2>Fun Stats!</h2>
+            <p>Total People Visited:</p>
+        </section>
+    </aside>
+
     <footer>
         <p>Fernando S. Costa Jr &copy; 2006</p>
         <a href="https://www.linkedin.com/in/fscj/">LinkedIn</a>
@@ -68,14 +85,14 @@
         background-image: url(sources/images/leather.jpg);
         background-repeat: repeat;
 
-        margin-left: 350px;
-        margin-right: 350px;
+        margin-left: 256px;
+        margin-right: 256px;
     }
 
     header {
         display: grid;
         grid-template-columns: 3.5fr 1fr;
-        background-color: aliceblue;
+        background-color: white;
         align-items: center;
         text-align: center;
         & h1 {
@@ -87,13 +104,17 @@
         text-align: center;
         border: 1px solid;
         border-style:outset;
-        background-color: aliceblue;
+        background-color: white;
         & .about-me {
+            & p {
+                padding: 15px;
+                font-size: larger;
+            }
         }
     }
 
     footer {
-        background-color: aliceblue;
+        background-color: white;
         text-align: center;
     }
 </style>

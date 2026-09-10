@@ -1,0 +1,74 @@
+
+
+
+body {
+    background-image: url(../sources/images/windows-fake.jpg);
+    background-repeat: repeat;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+
+
+header {
+  display: grid;
+  grid-template-columns: 3.5fr 1.4fr;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  & h1 {
+    box-shadow: 1px gray solid;
+    font-family:
+      "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+      Arial, sans-serif;
+  }
+}
+
+
+
+main {
+  text-align: center;
+  border: 1px solid;
+  border-style: outset;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  & .sub-main {
+      & .about-me {
+          & p {
+          padding: 15px;
+          font-size: larger;
+          }
+      }
+      & .my-projects {
+          & div {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+          }
+      }
+  }
+  & aside {
+      & section {
+          border: 1px solid;
+      }
+  }
+  & .construction {
+    background-color: white;
+    text-align: center;
+  }
+}
+
+
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  & p {
+    padding: 10px;
+  }
+  & a {
+    padding: 10px;
+  }
+}

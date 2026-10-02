@@ -1,0 +1,12 @@
+@media only screen and (min-width: 641px) {
+  body {
+    background-image: url(../sources/images/windows-fake.jpg);
+    background-repeat: repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  main {
+    display: flex;
+    flex-flow: column;
+  }
+}
